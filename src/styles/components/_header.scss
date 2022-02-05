@@ -1,0 +1,65 @@
+
+.App  {
+
+    .App-header {
+        padding-left: 3rem;
+    }
+
+    .logo-desktop {
+        pointer-events: none;
+        padding: 10px;
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+ 
+    @media (max-width: 900px) {
+        .logo-mobile {
+            display: block;
+            padding: 10px;
+            pointer-events: none;
+        }
+        .logo-desktop {
+         display: none;
+        }
+    }
+
+    .sort-demo {
+        padding-left: 1rem;
+        border-left: 1px solid #C1C5C9;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 150%;
+        color: #5C759B;
+    }
+
+    .App-header {
+        background-color: transparent;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        transition: background-color 0.5s ease;
+    }
+
+    .App-header.sticky {
+        background-color: white;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        box-shadow: -2px 12px 8px -7px rgba(0,0,0,0.36);
+        -webkit-box-shadow: -2px 12px 8px -7px rgba(0,0,0,0.36);
+        -moz-box-shadow: -2px 12px 8px -7px rgba(0,0,0,0.36);
+    }
+
+    .App-link {
+        text-decoration: none;
+    }
+
+ 
+}

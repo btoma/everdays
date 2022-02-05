@@ -1,0 +1,58 @@
+
+.app-body {
+    margin-top: 5rem;
+    min-height: 10vh;
+ 
+    .card-location {
+
+        .header-location {
+            color: #202529;
+            font-weight: 700;
+        }
+
+        .address-location {
+            font-size: 16px;
+            line-height: 140%;
+            color: #202529
+        }
+    }
+
+    .card-list {
+        list-style: none;
+        padding: 0;
+     
+        .card-item {
+            text-decoration: none;
+        }
+    }
+
+
+    .sort-select-container {
+        margin-bottom: 3rem;
+
+        .select-section {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+        }
+
+        .sort-by {
+            float: right;
+            font-weight: 500;
+            color: #6F7B8D;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 40px;
+        }
+
+        .custom-select {
+            max-width: 200px;
+            margin-left: 10px;
+        }
+    }
+
+}
